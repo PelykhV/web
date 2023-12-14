@@ -1,0 +1,49 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./articles.css";
+@import "./customer.css";
+@import "./footer.css";
+
+
+body{
+    font-family: Rubik;
+    font-size: 16px;
+    margin: 0 auto;
+    margin: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 30px;
+}
+
+:root {
+    --button-color: #458FF6;
+    --box-color: #DEECFE;
+    --box-shadow-color: #E5E9F6;
+    --read-more-color: #4089ED;
+    --customer-section-bg-color: #F3F8FE;
+    --point-color: #C6DCFB;
+    --first-point-color:  #5B9BF3;
+    --gradient-color-light: #67C3F3;
+    --gradient-color-dark:#5A98F2;
+}
+
