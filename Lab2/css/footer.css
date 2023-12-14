@@ -1,0 +1,124 @@
+section.footer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 165px;
+    background: linear-gradient(to bottom,var(--gradient-color-light),var(--gradient-color-dark));
+}
+
+div.footer {
+    margin: 0 auto;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+}
+
+.logo_right {
+    width: 160px;
+    height: 41px;
+}
+
+.bottom_menu {
+    display: flex;
+    padding-top: 3px;
+    justify-content: space-between;
+    align-items: center;
+    width: 545px;
+}
+
+.bottom_menu a{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.corner_dots {
+    position: relative;
+    z-index: 1;
+    width: 131px;
+    height: 114px;
+    margin-top: 75px;
+    margin-left: -22px;
+}
+
+@media screen and (min-width: 1800px){
+    .logo_right{
+        width: 260px;
+        height: 65px;
+    }
+
+    .bottom_menu a{
+        font-size: 28px;
+        margin-right: 200px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .bottom_menu {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .bottom {
+        width: 400px;
+    }
+
+    .bottom_menu {
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .bottom_menu a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 1px
+    }
+
+    .logo_right {
+        width: 134px;
+        height: 34px;
+        margin-right: 60px;
+    } 
+
+    .corner_dots {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .bottom {
+        width: 285px;
+    }
+
+    .bottom_menu {
+        flex-direction: column;
+        width: 100px;
+    }
+
+    .bottom_menu a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 1px
+    }
+
+    .logo_right {
+        width: 134px;
+        height: 34px;
+        margin-right: 60px;
+    } 
+
+    .corner_dots {
+        display: none;
+    }
+}
+
