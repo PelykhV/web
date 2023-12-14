@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger_menu {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.nav_elements ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+logo img{
+    width: 158px;
+    position: relative; 
+}
+
+li a {
+    color: black;
+    font-weight: 200;
+}
+
+nav_element{
+    color: black;
+
+}
+
+.bold_nav_element {
+    font-weight: 400;
+}
+
